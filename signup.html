@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up page</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="signUpPage pt-5">
+        <div class="signUpBox shadow-lg mx-auto">
+            <h1 class="text-center text-info">Smart login system</h1>
+            <input type="text" id="nameInput" class="form-control mb-3" placeholder="Enter your name">
+            <input type="email" id="emailInput" class="form-control mb-3" placeholder="Enter your email">
+            <input type="password" id="passwordInput" class="form-control mb-3" placeholder="Enter your password">
+            <button id="signUpBtn" class="btn btn-outline-info w-100 my-3">Sign up</button>
+            <div id="existAlert" class="signUpAlert d-none alert alert-danger">This email already exists, <a href="index.html">sign in</a> instead?</div>
+            <div id="emptyAlert" class="signUpAlert d-none alert alert-danger">Please enter your info</div>
+            <p class="text-center">Already have an account? <a href="index.html">login</a></p>
+        </div>
+    </div>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signUp.js"></script>
+</body>
+</html>

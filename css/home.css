@@ -1,0 +1,25 @@
+.logOutBtn {
+    align-items: flex-start;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.home .content {
+    width: 70%;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home {
+    height: 100vh;
+    background-color: #24353f;
+    position: relative;
+}

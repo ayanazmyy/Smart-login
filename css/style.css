@@ -1,0 +1,30 @@
+.logInPage, .signUpPage {
+    height: 100vh;
+    background-color: #24353f;
+}
+
+.logInPage p , .signUpPage p{
+    color: white;
+}
+
+.logInPage a, .signUpPage a {
+    text-decoration: none;
+    color: white;
+}
+
+.logInPage a:hover , .signUpPage a:hover {
+    text-decoration: underline;
+}
+
+.loginBox , .signUpBox{
+    width: 70%;
+    padding: 50px;
+}
+
+.loginBox input, .signUpBox input{
+    background-color: #24353f;
+}
+
+.signUpAlert a {
+    color: inherit;
+}
